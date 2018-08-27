@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-image": "node ./write-image.js && cat output.jpg | ./imgcat.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "process": "node ./cli.js"
   },
   "keywords": [],
   "author": "Adam Biagianti",
